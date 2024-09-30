@@ -3,7 +3,7 @@ import Data from '../../Data.json'
 import Product from '../Components/Product'
 
 const Products = () => {
-  // Variáel de estado dos produtos>
+  // Variável de estado dos produtos>
   const [products, setProducts] = useState(Data.products)
   return (
     <div className="container mt-5">
