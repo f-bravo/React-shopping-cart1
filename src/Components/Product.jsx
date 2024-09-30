@@ -9,7 +9,7 @@ const Product = ({product}) => {
           <h4 className="card-title">{product.title}</h4>
           <h5 className="">${product.price}</h5>
           
-          <button href="#" class="btn btn-primary">
+          <button href="#" className="btn btn-primary">
             Add to Cart
           </button>
         </div>
