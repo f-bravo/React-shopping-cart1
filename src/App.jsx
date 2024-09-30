@@ -1,6 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Navbar from './Components/Navbar'
 import Products from './Pages/Products'
+import Footer from './Components/Footer'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Navbar />
       <Products />
+      <Footer />
     </>
   )
 }
