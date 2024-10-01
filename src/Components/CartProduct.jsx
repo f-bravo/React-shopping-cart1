@@ -38,7 +38,11 @@ const CartProduct = ({product}) => {
             <b>+</b>
           </button>
         </div>
-        <button className='btn btn-sm btn-warning' onClick={() => dispatch ({type: "Remove", id: product.id})}> Remove</button>
+        <button 
+        className='btn btn-sm btn-warning' 
+        onClick={() => dispatch ({type: "Remove", id: product.id})}> 
+          Remove
+        </button>
       </div>    
     </div>
   )
