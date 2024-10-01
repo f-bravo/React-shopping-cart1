@@ -5,7 +5,7 @@ const CartReducer = (state, action) => {
       return [...state, action.product]
 
     case "Remove":
-    
+      return state.filter(p => p.id !== action.id)
 
     case "Increase":
       const IndexI = state.findIndex( p => p.id === action.id)
